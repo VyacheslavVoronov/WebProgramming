@@ -1,1 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.top-bar {
+    background-color: #EDEDED;
+    padding: 10px 0;
+    height: 43px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.top-bar-text {
+    font-family: "Inter-Regular";
+    font-size: 14px;
+    color: #666;
+    text-align: center;
+}
+
+.top-bar-link {
+    color: #D87775;
+    text-decoration: none;
+}
+
+.top-bar-link:hover {
+    text-decoration: underline;
+}
+
+header {
+    background-color: #FBFBFB;
+    padding: 10px 0;
+    height: 75px;
+}
+
+.header-text {
+    padding: 19.5px 0px 19.5px 0px;
+    font-family: "Inter-Regular";
+    color: #757575;
+    font-size: 15px;
+    letter-spacing: 0.6px;
+    margin: 0 10px;
+}
+
+.header-button {
+    background-color: #E48D8B;
+    width: 117px;
+    height: 36px;
+    border: 0;
+    font-family: "Inter-Bold";
+    font-size: 15px;
+    color: #FFFFFF;
+    text-align: center;
+    cursor: pointer;
+}
+
+@font-face {
+    font-family: "Inter-Regular";
+    src: url(fonts/Inter-Regular.otf);
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Inter-Bold";
+    src: url(fonts/Inter-Bold.otf);
+    font-display: swap;
+}
 
