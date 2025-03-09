@@ -2,32 +2,42 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    max-width: 1440px;
 }
 
-.container {
-    max-width: 1440px;
-    margin: 0 auto;
-    padding: 0 20px;
+
+body{
+    width: 100%;
+    font-family: "Inter-Regular";
+    background-color: #FFFFFF;
+    color: #0F0F0F;
+}
+
+html{
+    font-size: 10px;
+}
+
+.top-bar{
+    font-size: 1.4rem;
+    background-color: #EDEDED;
+    height: 4.3rem;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.top-bar {
-    background-color: #EDEDED;
-    padding: 10px 0;
-    height: 43px;
-    border-bottom: 1px solid #e0e0e0;
-}
-
-.top-bar-text {
-    font-family: "Inter-Regular";
-    font-size: 14px;
-    color: #666;
+.top-bar__text {
+    width: 28rem;
+    height: 2rem;
+    margin-top: 0.2rem;
     text-align: center;
 }
 
-.top-bar-link {
+.top-bar__link {
+    width: 13.5rem;
+    height: 1.9rem;
+    margin-top: 0.2rem;
+    padding-left: 0.3rem;
     color: #D87775;
     text-decoration: none;
 }
@@ -37,30 +47,310 @@
 }
 
 header {
-    background-color: #FBFBFB;
-    padding: 10px 0;
-    height: 75px;
+    width: 100%;
+    height: 11.8rem;
 }
 
-.header-text {
-    padding: 19.5px 0px 19.5px 0px;
-    font-family: "Inter-Regular";
+
+.header__logo{
+    margin: 0.5rem 0rem 0rem 15.5rem;
+}
+
+.header__title {
     color: #757575;
-    font-size: 15px;
+    font-size: 1.5rem;
     letter-spacing: 0.6px;
-    margin: 0 10px;
+    margin-left: 1.3rem;
 }
 
-.header-button {
+.header__container{
+    height: 7.5rem;
+    margin: 0 auto;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    background-color: #FBFBFB;
+}
+
+.header__button {
+    margin-right: 15.5rem;
     background-color: #E48D8B;
-    width: 117px;
-    height: 36px;
+    width: 11.7rem;
+    height: 3.6rem;
     border: 0;
+    letter-spacing: 0%;
     font-family: "Inter-Bold";
-    font-size: 15px;
+    font-size: 1.5rem;
     color: #FFFFFF;
     text-align: center;
     cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.trailer{
+    background-color: #FFFFFF;
+    height: 70rem;
+}
+
+.trailer__title{
+    font-size: 4.9rem;
+    width: 49.4rem;
+    height: 17.7rem;
+}
+
+.trailer__subtitle{
+    line-height: 2.8rem;
+    margin-top: 1.8rem;
+    width: 46.1rem;
+    height: 8.4rem;
+    font-size: 2rem;
+    color: #464646;
+}
+
+.trailer__price{
+    margin-top: 1.3rem;
+    font-family: "Inter-Bold";
+    font-size: 3.1rem;
+    letter-spacing: 0.5px;
+}
+
+.trailer__price-alt{
+    font-family: "Inter-Regular";
+    font-size: 2rem;
+    letter-spacing: 0.5px;
+    color: #757575;
+    text-decoration: line-through;
+}
+
+
+.trailer__button.primary {
+    background-color: #E48D8B;
+    width: 15.4rem;
+    height: 4.3rem;
+    border: 0;
+    letter-spacing: 0%;
+    font-family: "Inter-Bold";
+    font-size: 1.7rem;
+    color: #FFFFFF;
+    text-align: center;
+    cursor: pointer;
+    font-size: 1.7;
+}
+
+.trailer__button.secondary {
+    background-color: #EDEDED;
+    width: 18.3rem;
+    height: 4.3rem;
+    border: 0;
+    letter-spacing: 0%;
+    font-family: "Inter-Bold";
+    font-size: 1.5rem;
+    color: #757575;
+    text-align: center;
+    cursor: pointer;
+    font-size: 1.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 32rem;
+}
+
+.trailer__arrow{
+    margin-right: 0.3rem;
+}
+
+
+.trailer__title{
+    font-weight: lighter;
+    font-size: 4.9rem;
+    width: 49.4rem;
+    height: 17.7rem;
+}
+
+.trailer__content{
+    margin-top: 3.8rem;
+    margin-left: 0.2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.trailer__buttons{
+    margin-top: 3.5rem;
+    grid-template-columns: auto auto;
+    gap:1.2rem;
+    display: grid;
+}
+
+.trailer__container{
+    margin-left: 15.3rem;
+    margin-top: 12.2rem;
+    grid-template-columns: 50rem 58.3rem;
+    display: grid;
+}
+
+.trailer__container-video{
+    margin-left: 9.9rem;
+}
+
+.benefits{
+    margin-top: -0.3rem;
+    display: flex;
+    flex-direction: row;
+    height: 26rem;
+    align-items: center;
+}
+
+.benefit h3{
+    font-size: 2.5rem;
+    font-weight: lighter;
+    margin-right: 1rem;
+}
+
+.benefit p{
+    font-size: 1.8rem;
+}
+
+.benefit__title1{
+    line-height: 3.25rem;
+    width: 33.4rem;
+    height: 6.5rem;
+}
+
+.benefit__text1{
+    width: 32.1rem;
+    height: 10.8rem;
+    line-height: 2.7rem;
+}
+
+.benefit__title2{
+    line-height: 3.25rem;
+    width: 27.4rem;
+    height: 6.5rem;
+}
+
+.benefit__text2{
+    width: 30.5rem;
+    height: 10.8rem;
+    line-height: 2.7rem;
+}
+
+.benefit__title3{
+    line-height: 3.25rem;
+    width: 29.4rem;
+    height: 6.5rem;
+}
+
+.benefit__text3{
+    width: 32.1rem;
+    height: 10.8rem;
+    line-height: 2.7rem;
+}
+
+.benefit{
+    display: flex;
+    flex-direction: column;
+    gap: 1.3rem;
+}
+
+.benefit__icon{
+    width: 4rem;
+    height: 4rem;   
+}
+
+.benefits > article:nth-child(1){
+    margin-left: 15.5rem;
+}
+
+.benefits > article:nth-child(2){
+    margin-left: 5.4rem;
+}
+
+.benefits > article:nth-child(3){
+    margin-left: 9.3rem;
+}
+
+.teachers{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-left: 16.9rem;
+    margin-top: 19.5rem;
+}
+
+.teacher__img{
+    grid-column: 1;
+}
+
+.teacher__title{
+    grid-column: 2;
+    font-family: "Inter-Bold";
+    font-size: 3.8rem;
+    line-height: 4.56rem;
+    width: 50rem;
+    height: 9.2rem;
+    margin-right: 8.7rem;
+    margin-top: 14rem;
+}
+
+.teacher__text{
+    margin-top: -27rem;
+    grid-column: 2;
+    font-size: 1.8rem;
+    width: 49.3rem;
+    height: 13.5rem;
+    line-height: 2.7rem;
+}
+
+
+.skills{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-left: 1.5rem;
+    margin-top: 11.2rem;
+}
+
+.skill__img{
+    grid-column: 2;
+    margin-right: 4.9rem;
+}
+
+
+.skill__title{
+    margin-top: 12.3rem;
+    margin-left: 14rem;
+    grid-column: 1;
+    grid-row: 1;
+    font-family: "Inter-Bold";
+    font-size: 3.8rem;
+    line-height: 4.56rem;
+    width: 50rem;
+    height: 9.2rem;
+}
+
+.skill__text{
+    margin-top: -25.5rem;
+    margin-left: 14rem;
+    grid-column: 1;
+    font-size: 1.8rem;
+    width: 49.3rem;
+    height: 13.5rem;
+    line-height: 2.7rem;
+}
+
+
+.include{
+    background-color: #017CFF;
+    height: 42.4rem;
+    color: #FFFFFF;
+    margin-top: 11.3rem;
+}
+
+.include__title{
+    font-family: "Inter-Bold";
+    font-size: 3.8rem;
+    line-height: 4.56rem;
 }
 
 @font-face {
@@ -74,4 +364,3 @@ header {
     src: url(fonts/Inter-Bold.otf);
     font-display: swap;
 }
-
